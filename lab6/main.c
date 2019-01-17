@@ -331,6 +331,7 @@ int main()
     MenuConfig("replyhi", "Reply hi TCP Service", StartReplyhi);
     MenuConfig("hello", "Hello TCP Client", Hello);
     MenuConfig("dns", "DNS Query github.com", Gethostbyname);
+    MenuConfig("httpclent","http client",httpClient);
     ExecuteMenu();
 }
 
